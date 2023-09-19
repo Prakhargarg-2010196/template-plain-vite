@@ -12,10 +12,10 @@
     ```
 
 3. Set up the absolute paths
-To setup absolute paths follow the guide given here:
-[Guide to absolute path in vite](https://prakharblogs.hashnode.dev/how-to-use-absolute-paths-in-vite-with-eslint-and-react)
+   To setup absolute paths follow the guide given here:
+   [Guide to absolute path in vite](https://prakharblogs.hashnode.dev/how-to-use-absolute-paths-in-vite-with-eslint-and-react)
 
 ## What it will include in future
 
-1. Absolute path : You would be able  create new absolute paths in the template using the script createAbsolutePath.js
+1. Absolute path : You would be able create new absolute paths in the template using the script createAbsolutePath.js
    What this script does is it creates new absolute paths according to the values given in input using command-line

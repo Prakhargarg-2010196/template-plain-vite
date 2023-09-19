@@ -10,12 +10,15 @@
         "lint:fix": "eslint -- fix  \"**/*\" --ext .js,.jsx",
         "preview": "vite preview",
         "format": "onchange \"**/*\" -- prettier  --ignore-unknown {{changed}} --write",
+        "format:root": "prettier \"**/*\" --write",
         "rename": "node ./scripts/setup-scripts/packageRename.js"
     },
     "dependencies": {
         "onchange": "^7.1.0",
+        "prop-types": "^15.8.1",
         "react": "^18.2.0",
-        "react-dom": "^18.2.0"
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.16.0"
     },
     "devDependencies": {
         "@types/react": "^18.2.15",

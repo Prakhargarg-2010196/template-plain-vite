@@ -1,4 +1,4 @@
-const path = require('path');// used for path resolution 
+const path = require('path') // used for path resolution
 module.exports = {
     root: true,
     env: { browser: true, es2020: true },
@@ -22,9 +22,8 @@ module.exports = {
             //  Used to give aliases to absolute paths and resolve them
             alias: [
                 ['~', path.resolve(__dirname, './src')],
-                ['views', path.resolve(__dirname, './src/views')]
+                ['views', path.resolve(__dirname, './src/views')],
             ],
-
         },
     },
     plugins: ['react-refresh'],
