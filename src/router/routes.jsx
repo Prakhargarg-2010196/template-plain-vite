@@ -1,6 +1,6 @@
 // V6 of react router standard way is to create a routes object and pass down to createBrowserRouter Api for creating routes
-import Home from 'views/home/home.jsx'
-import Chat from 'views/chat/chat.jsx'
+import Home from 'views/home/home.jsx';
+import Chat from 'views/chat/chat.jsx';
 
 /*
 Typical route object 
@@ -34,4 +34,4 @@ export const RoutesArray = [
             },
         ],
     },
-]
+];

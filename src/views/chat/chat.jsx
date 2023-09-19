@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
 const Chat = () => {
     return (
@@ -6,7 +6,7 @@ const Chat = () => {
             Chat
             <Link to="/">Go to home page</Link>
         </div>
-    )
-}
+    );
+};
 
-export default Chat
+export default Chat;

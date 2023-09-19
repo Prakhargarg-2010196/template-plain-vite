@@ -1,4 +1,4 @@
-import { Link, Outlet } from 'react-router-dom'
+import { Link, Outlet } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -7,7 +7,7 @@ const Home = () => {
             <Link to="/chat">Go to chat page</Link>
             <Outlet></Outlet>
         </div>
-    )
-}
+    );
+};
 
-export default Home
+export default Home;
