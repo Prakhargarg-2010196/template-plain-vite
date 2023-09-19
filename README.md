@@ -1,8 +1,19 @@
-# React + Vite
+# Plain and Simple Vite template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> This is a plain an simple sane vite template containing basic development utility features for running vite template
 
-Currently, two official plugins are available:
+## Usage
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Use the template option in the repository to create a new template repository on your github account or clone the repository locally.
+2. Run the following command to replace the package name with your project name:
+
+    ```bash
+    node setup.js my-project-name
+    ```
+
+3. Set up the absolute paths
+
+## What it will include in future
+
+1. Absolute path : You can create new absolute paths in the template using the script createAbsolutePath.js
+   What this script does is it creates new absolute paths according to the values given in input using command-line

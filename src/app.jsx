@@ -1,7 +1,6 @@
 import './app.css'
-import Button from 'components/button/button.jsx'
 function App() {
-    return <><Button></Button></>
+    return <></>
 }
 
 export default App

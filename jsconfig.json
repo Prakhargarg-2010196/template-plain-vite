@@ -8,8 +8,10 @@
         "strictFunctionTypes": true,
         "baseUrl": ".",
         "paths": {
-            "~/*" :["src/*"],
-            "components/*":["src/components/*"],
+           
+            "~/*": ["src/*"],
+            "components/*": ["src/components/*"],
+            "views/*": ["src/views"]
         }
     },
     "exclude": [
