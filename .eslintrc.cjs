@@ -20,10 +20,11 @@ module.exports = {
                 extensions: ['.js', '.jsx'],
             },
             //  Used to give aliases to absolute paths and resolve them
-            alias: [
-                ['~', path.resolve(__dirname, './src')],
-                ['views', path.resolve(__dirname, './src/views')],
-            ],
+            alias: {
+                map: [    ['~', path.resolve(__dirname, './src')],
+                    ['views', path.resolve(__dirname, './src/views')]],
+                extensions:['.js','.jsx','.ts','.tsx','.json'],
+            }
         },
     },
     plugins: ['react-refresh'],
